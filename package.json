@@ -1,0 +1,24 @@
+{
+  "name": "my-site-portfolio",
+  "version": "1.0.0",
+  "description": "Fazer backend e deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattFerreira18/site-profile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattFerreira18/site-profile/issues"
+  },
+  "homepage": "https://github.com/MattFerreira18/site-profile#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0"
+  }
+}

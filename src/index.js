@@ -3,10 +3,10 @@ const toggleColor = document.querySelector(".mode-visualization")
 const themeFile = document.querySelector(".theme-color")
 
 toggleColor.addEventListener("click", () => {
-    if (themeFile.getAttribute("href") == "styles/darkmode.css") {
-        themeFile.href = "styles/lightmode.css"
+    if (themeFile.getAttribute("href") == "../styles/darkmode.css") {
+        themeFile.href = "../styles/lightmode.css"
     } else {
-        themeFile.href = "styles/darkmode.css"
+        themeFile.href = "../styles/darkmode.css"
     }
 })
 
