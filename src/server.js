@@ -1,11 +1,11 @@
+require('dotenv').config();
 const express = require('express');
 const path = require('path');
 
 const app = express();
-const PORT = 5500;
 
 app
-    .use(express.urlencoded({ extended: true }))
+    .set('port', process.env.PORT || 5000)
     .use(express.static('public'))
     .set('views', path.join(__dirname, '/views'))
     .set('view engine', 'ejs')
@@ -23,6 +23,6 @@ app
         return res.render('redirect-email.ejs');
     });
 
-app.listen(PORT, () => {
-    console.log('the server is running');
+app.listen(app.get('port'), () => {
+    console.log('the server is running 🚀');
 });
