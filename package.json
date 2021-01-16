@@ -5,6 +5,9 @@
   "repository": "https://github.com/MattFerreira18/personal-site.git",
   "author": "MattFerreira18 <matheusferreira.dev@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
