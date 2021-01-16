@@ -6,7 +6,7 @@
   "author": "MattFerreira18 <matheusferreira.dev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/scripts/server.js"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
