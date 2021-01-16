@@ -6,12 +6,13 @@
   "author": "MattFerreira18 <matheusferreira.dev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node src/scripts/server.js"
+    "start": "nodemon src/scripts/server.js",
+    "start-crawler": "node src/scripts/crawler.js"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "puppeteer-core": "^5.5.0"
+    "puppeteer": "^5.5.0"
   },
   "devDependencies": {
     "eslint": "^7.18.0",
@@ -19,6 +20,7 @@
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7",
     "prettier": "^2.2.1"
   }
 }
