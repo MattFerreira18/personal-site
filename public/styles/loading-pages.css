@@ -10,8 +10,13 @@
   background: var(--background-telegram);
 }
 
+#loading-page__email {
+  background: var(--background-email);
+}
+
 .icon__github,
-.icon__linkedin {
+.icon__linkedin,
+.icon__email {
   position: absolute;
   top: 28%;
   right: 40%;
