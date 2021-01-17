@@ -2,7 +2,12 @@
   background: var(--background-github);
 }
 
-.icon__github {
+#loading-page__linkedin {
+  background: var(--background-linkedin);
+}
+
+.icon__github,
+.icon__linkedin {
   position: absolute;
   top: 32%;
   right: 40%;
