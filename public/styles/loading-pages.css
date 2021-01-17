@@ -6,11 +6,23 @@
   background: var(--background-linkedin);
 }
 
+#loading-page__telegram {
+  background: var(--background-telegram);
+}
+
 .icon__github,
 .icon__linkedin {
   position: absolute;
-  top: 32%;
+  top: 28%;
   right: 40%;
   height: 18rem;
   width: 18rem;
+}
+
+.icon__telegram {
+  position: absolute;
+  top: 32%;
+  right: 43%;
+  height: 15rem;
+  width: 15rem;
 }
