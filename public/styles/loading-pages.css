@@ -1,0 +1,11 @@
+#loading-page__github {
+  background: var(--background-github);
+}
+
+.icon__github {
+  position: absolute;
+  top: 32%;
+  right: 40%;
+  height: 18rem;
+  width: 18rem;
+}
